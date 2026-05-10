@@ -34,7 +34,7 @@ Base Image → Canny Edge Extraction → ControlNet (composition lock)
 ### Output
 
 <!-- Replace with your actual output images -->
-![Genre Posters](workflow_1_genre_poster/workflow_screenshot.jpg)
+![Genre Posters](workflow_1_genre_poster/workflow_Genre_Mood_Board_Generator.jpg)
 
 | Action | Romance | Horror | Drama | Noir |
 |--------|---------|--------|-------|------|
@@ -45,7 +45,7 @@ Base Image → Canny Edge Extraction → ControlNet (composition lock)
 - **Base Model:** SDXL 1.0
 - **ControlNet:** Canny edge detection (strength: 0.65)
 - **Resolution:** 1024×576 (16:9 broadcast ratio)
-- **Workflow file:** [`genre_poster_workflow.json`](workflow_1_genre_poster/genre_poster_workflow.json)
+- **Workflow file:** [`genre_poster_workflow.json`](workflow_1_genre_poster/Genre_Mood_Board_Generator.json)
 
 ---
 
@@ -77,7 +77,7 @@ Character Description → Base Portrait (front view)
 ### Output
 
 <!-- Replace with your actual output images -->
-![Character Sheet](workflow_2_character_sheet/workflow_screenshot.jpg)
+![Character Sheet](workflow_2_character_sheet/workflow_Character_Reference_Sheet_Generator.jpg)
 
 | Front View | Three-Quarter | Side Profile | Costume Variation |
 |-----------|---------------|-------------|-------------------|
@@ -89,7 +89,7 @@ Character Description → Base Portrait (front view)
 - **IP-Adapter:** Plus (ViT-H) with variable weights per view
 - **CLIP Vision:** ViT-H-14
 - **Resolution:** 768×1024 (portrait orientation)
-- **Workflow file:** [`character_sheet_workflow.json`](workflow_2_character_sheet/character_sheet_workflow.json)
+- **Workflow file:** [`character_sheet_workflow.json`](workflow_2_character_sheet/Character_Reference_Sheet_Generator.json)
 
 ---
 
@@ -139,14 +139,13 @@ To run on RunPod:
 ## Related Projects
 
 - [**AE Promo Versioning Pipeline**](https://github.com/prasadpradhan/ae-promo-versioning) — The production After Effects automation system that inspired Workflow 1's multi-variant approach
-- [**AE Pipeline Assistant**](https://github.com/prasadpradhan/ae-pipeline-assistant) — LangChain RAG chatbot trained on the AE pipeline's codebase and documentation
 
 ---
 
 ## Author
 
 **Prasad Pradhan**
-Broadcast Automation Engineer | Creative Technology | AI Pipeline Engineering
+Broadcast Automation Engineer | Creative Technology | AI Pipeline & Workflows
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/prasadpradhan21)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/prasadpradhan)
